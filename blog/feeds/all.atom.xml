@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022 協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-04-14T16:25:16+08:00</updated><entry><title>W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-04-07T16:25:00+08:00</published><updated>2022-04-14T16:25:16+08:00</updated><author><name>nfu40923209</name></author><id>tag:None,2022-04-07:./w7_summary.html</id><summary type="html">&lt;p&gt;W7任務&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>cd2022 協同產品設計</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-04-28T09:38:26+08:00</updated><entry><title>W8</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-21T16:25:00+08:00</published><updated>2022-04-28T09:38:26+08:00</updated><author><name>nfu40923209</name></author><id>tag:None,2022-04-21:./midterm.html</id><summary type="html">&lt;p&gt;W8任務&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;W8任務&lt;/p&gt;
+
+
+&lt;h2&gt;軟體和零件分配&lt;/h2&gt;
+&lt;p&gt;NX12: &lt;/p&gt;
+&lt;p&gt;40823215:軸承支撐軸、軸承支撐圈、底座上蓋、底座中間部分、底座蓋&lt;/p&gt;
+&lt;p&gt;40923207:絞鍊、主臂關節2、主臂關節1、電機軸承支撐座右側、電機軸承支撐座左側、右側曲柄&lt;/p&gt;
+&lt;p&gt;40923209:輸出軸、右側連桿、左側連桿、4mm鋁支撐柱、減速箱上殼、L型連接件&lt;/p&gt;
+&lt;p&gt;40923213:前端通用件、前端關節、7mm支撐柱、3mm鋁支撐柱、三角形連桿軸承壓緊件、三角形連桿&lt;/p&gt;
+&lt;p&gt;Onshape:&lt;/p&gt;
+&lt;p&gt;40923203: 前端通用件、前端關節、7mm支撐柱、3mm鋁支撐柱、三角形連桿軸承壓緊件、三角形連桿&lt;/p&gt;
+&lt;p&gt;40923204:輸出軸、右側連桿、左側連桿、4mm鋁支撐柱、減速箱上殼、L型連接件&lt;/p&gt;
+&lt;p&gt;40923220:絞鍊、主臂關節2、主臂關節1、電機軸承支撐座左側、電機軸承支撐座右側、右側曲柄&lt;/p&gt;
+&lt;p&gt;40923240:軸承支撐軸、軸承支撐圈、底座上蓋、底座中間部分、底座蓋&lt;/p&gt;
+&lt;h2&gt;40923209    W8進度&lt;/h2&gt;
+&lt;p&gt;我的檔案下載連結  &lt;a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/Em3wU8yYkMlEtpEneRoBjt4BUMUbrXzOF5RmQJf8x-Sqaw"&gt;OneDrive&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://nfu40923209.github.io/cd2022/content/midterm.html"&gt;W8網站&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W7</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-04-07T16:25:00+08:00</published><updated>2022-04-14T16:25:16+08:00</updated><author><name>nfu40923209</name></author><id>tag:None,2022-04-07:./w7_summary.html</id><summary type="html">&lt;p&gt;W7任務&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;W7任務&lt;/p&gt;
 
 
