@@ -139,19 +139,26 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">每週課堂進度 << <a href='每週課堂進度.html'>Previous</a> <a href='w10任務.html'>Next</a> >> w10任務<br /><h1>midterm</h1>
-<p><span>我所負責的軟體與零件:NX12-輸出軸、右側連桿、左側連桿、4mm鋁支撐柱、減速箱上殼、L型連接件</span></p>
-<p><span>我的檔案下載連結：<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/Em3wU8yYkMlEtpEneRoBjt4Biaz4lTRAUktOejH_L0Shww?e=LBav2Q">OneDrive</a></span></p>
-<p>我的繪的uArm機械手臂參數化零組件檔案連結(<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/Ek8dwOPXxB9DvJPYXwQu_R0B-B7noIYuZtn23NyF5GQ9xw?e=ITtgkN">uArm NX12</a>)</p>
-<p><strong>項目一：零件工程圖</strong></p>
-<p><span><img caption="false" height="630" src="./../images/工程圖2.jpg" width="888"/></span></p>
-<p><span><img alt="" height="627" src="./../images/工程圖1.jpg" width="888"/></span></p>
-<p><span><img caption="false" height="625" src="./../images/工程圖4.jpg" width="888"/></span></p>
-<p><span><img caption="false" height="627" src="./../images/工程圖3.jpg" width="888"/></span></p>
-<p><strong>項目二：組合圖</strong></p>
-<p><span><img alt="" height="540" src="./../images/組合圖2.jpg" width="1008"/></span></p>
-<p><span><img alt="" height="539" src="./../images/組合圖1.jpg" width="1008"/></span></p>
-<p><span><img alt="" height="542" src="./../images/局部組合放大圖.jpg" width="1008"/></span></p><br />每週課堂進度 << <a href='每週課堂進度.html'>Previous</a> <a href='w10任務.html'>Next</a> >> w10任務</div>
+    <div id="tipue_search_content">w14 << <a href='w14.html'>Previous</a> <a href='online.html'>Next</a> >> online<br /><h1>w16</h1>
+<p>1. 已知左側綠色底座的 uArm 機械手臂, 其基座座標原點位於絕對座標 (1.0, 0.25, 0), 啟動模擬後 green_suctionpad_frame 座標原點則位於 (0.22859, 0.26047, 0.36576), 請列出運算式說明, 啟動模擬後 joint1, joint2 與 joint3分別以逆時針旋轉 5 度後, 求 green_suctionpad_frame 的絕對座標值.</p>
+<p>答：</p>
+<p>在我啟動模擬後 green_suctionpad_frame 的座標原點與老師題目給的不同，我的所測到的值大約為（0.25970, 0.26017, 0.34752）。</p>
+<p>然後由綠色底座的 uArm 的操控程式得知</p>
+<p>（按鍵 p 吸取）、（按鍵 q 放掉）、</p>
+<p>（按鍵 k 按一下控制 joint1 向右旋轉 1 度 [原先設定是 2 度，我改 1 度]）、</p>
+<p>（按鍵 l 按一下控制 joint1 向左旋轉 1 度 [原先設定是 2 度，我改 1 度]）、</p>
+<p>（按鍵 h 按一下控制 joint2 旋轉加 1 度 [逆時針]）、</p>
+<p>（按鍵 j 按一下控制 joint2 旋轉減 1 度 [順時針]）、</p>
+<p>（按鍵 f 按一下控制 joint3 旋轉加 1 度 [逆時針]）、</p>
+<p>（按鍵 g 按一下控制 joint3 旋轉減 1 度 [順時針]）</p>
+<p>而題目要 joint1, joint2 與 joint3 分別以逆時針旋轉 5 度，所以按鍵 k、h、f都按五下，就能找到 green_suctionpad_frame 的絕對座標值大約為（0.26556,0.19590,0.38774）</p>
+<p>因為我不知道如何帶運算式說明，所以我只能利用移動後直接看座標值。</p>
+<p><img alt="" height="742" src="./../images/2.jpg" width="1387"/></p>
+<p>2. 已知左側 uarm 前方的紅色方塊頂端中心座標值為 (0.2, 0.4, 0.1), 請列出運 算式說明左側 uarm 機械手臂的 joint1, joint2 與 joint3 該如何旋轉才能讓 end effector 的吸盤末端中心點移動至紅色方塊頂端中心?</p>
+<p>答：</p>
+<p>我不知如何套用運算式，所以我直接計算我按鍵案幾次最接近紅色方塊頂端中心。</p>
+<p>第一先按鍵 l 按 10 下，第二在按鍵 g 按 34 下，最後按鍵 j 按 28 下，大概接近紅色方塊頂端中心。</p>
+<p>也就是 joint1 先向左旋轉 10 度，然後 joint3 順時針轉 34 度，最後 joint2 順時針轉 28 度。</p><br />w14 << <a href='w14.html'>Previous</a> <a href='online.html'>Next</a> >> online</div>
         
     <!-- footer -->
       <div class="container">

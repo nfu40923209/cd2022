@@ -249,7 +249,22 @@ var winkVideoData_ssh_setup = {
 <div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_ssh_setup" height="100%" muted="true" width="100%">
 <source src="./../downloads/ssh_setup.mp4" type="video/mp4"/></video></div>
 <h1>w14</h1>
-<p>我的檔案連結：</p><h1>online</h1>
+<p>我的檔案連結：<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/EhFgcP6zux9Ki-TJhLDQSxMBp_TVdiKuBWaHkmrIcDQcQg?e=A8J4k8">40923209_盧詩婷_MTB_NX12</a></p>
+<h1>w16</h1>
+<p>1. 已知左側綠色底座的 uArm 機械手臂, 其基座座標原點位於絕對座標 (1.0, 0.25, 0), 啟動模擬後 green_suctionpad_frame 座標原點則位於 (0.22859, 0.26047, 0.36576), 請列出運算式說明, 啟動模擬後 joint1, joint2 與 joint3分別以逆時針旋轉 5 度後, 求 green_suctionpad_frame 的絕對座標值.</p>
+<p>答：</p>
+<p>在我啟動模擬後 green_suctionpad_frame 的座標原點與老師題目給的不同，我的所測到的值大約為（0.25970, 0.26017, 0.34752）。</p>
+<p>然後由綠色底座的 uArm 的操控程式得知</p>
+<p>（按鍵 p 吸取）、（按鍵 q 放掉）、</p>
+<p>（按鍵 k 按一下控制 joint1 向右旋轉 1 度 [原先設定是 2 度，我改 1 度]）、</p>
+<p>（按鍵 l 按一下控制 joint1 向左旋轉 1 度 [原先設定是 2 度，我改 1 度]）、</p>
+<p>（按鍵 h 按一下控制 joint2 旋轉加 1 度 [逆時針]）、</p>
+<p>（按鍵 j 按一下控制 joint2 旋轉減 1 度 [順時針]）、</p>
+<p>（按鍵 f 按一下控制 joint3 旋轉加 1 度 [逆時針]）、</p>
+<p>（按鍵 g 按一下控制 joint3 旋轉減 1 度 [順時針]）</p>
+<p>而題目要 joint1, joint2 與 joint3 分別以逆時針旋轉 5 度，所以按鍵 k、h、f都按五下，就能找到 green_suctionpad_frame 的絕對座標值大約為（0.26556,0.19590,0.38774）</p>
+<p>因為我不知道如何帶運算式說明，所以我只能利用移動後直接看座標值。</p>
+<p><img alt="" height="742" src="/images/2.jpg" width="1387"/></p><h1>online</h1>
 <p>我所負責的軟體與零件:NX12-輸出軸、右側連桿、左側連桿、4mm鋁支撐柱、減速箱上殼、L型連接件</p>
 <p>我的檔案下載連結：<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/Em3wU8yYkMlEtpEneRoBjt4BUMUbrXzOF5RmQJf8x-Sqaw?e=tfJIaU">OneDrive</a></p>
 <p><strong>項目一：零件工程圖</strong></p>
