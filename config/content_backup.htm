@@ -192,7 +192,26 @@ var winkVideoData_2 = {
 <p><strong>項目二：組合圖</strong></p>
 <p><span><img alt="" height="540" src="/images/組合圖2.jpg" width="1008"/></span></p>
 <p><span><img alt="" height="539" src="/images/組合圖1.jpg" width="1008"/></span></p>
-<p><span><img alt="" height="542" src="/images/局部組合放大圖.jpg" width="1008"/></span></p><h1>w10任務</h1>
+<p><span><img alt="" height="542" src="/images/局部組合放大圖.jpg" width="1008"/></span></p>
+<p><strong>項目三：組合圖STL格式轉入copelaSim</strong></p>
+<script>
+// 在 Javascript 標註內以兩個斜線加入單行註解
+// 每一個影片要有獨特的 data-varname 變數名稱
+var winkVideoData_W8_3 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_W8_3" height="100%" muted="true" width="100%">
+<source src="./../downloads/W8_3.mp4" type="video/mp4"/></video></div>
+<p><strong>項目四：控制前三軸作動</strong></p>
+<p>GUI slider 控制前三軸作動在連結中的uArm5.ttt檔</p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/EuSGfgA3dJxOuYrowyG0b6MBj3rvfj9PdtKcsoXkYgLheQ">連結</a></p><h1>w10任務</h1>
 <p>w10 任務執行步驟:</p>
 <ol>
 <li>下載 <a href="https://github.com/mdecycu/cd2022_guide/blob/main/downloads/w10_block_ui/w10_block_ui.wnk">w10_block_ui.wnk</a>、<a href="https://github.com/mdecycu/cd2022_guide/blob/main/downloads/w10_nx_integ/w10_nx_integ.wnk">w10_nx_integ.wnk</a>、<a href="https://github.com/mdecycu/cd2022_guide/blob/main/downloads/w10_ssh/w10_ssh.wnk">w10_shh.wnk</a></li>
@@ -284,7 +303,8 @@ var winkVideoData_w15_1= {
 <p>影片中鍵盤操控設定</p>
 <p>joint1旋轉由a、d控制，a往負的方向轉，d往正的方向轉</p>
 <p>joint2旋轉由w、s控制，s往負的方向轉，w往正的方向轉</p>
-<p>joint3旋轉由f、g控制，f往負的方向轉，g往正的方向轉</p><h1>w16</h1>
+<p>joint3旋轉由f、g控制，f往負的方向轉，g往正的方向轉</p>
+<p>吸盤吸放設定，p吸取，q放掉</p><h1>w16</h1>
 <p>1. 已知左側綠色底座的 uArm 機械手臂, 其基座座標原點位於絕對座標 (1.0, 0.25, 0), 啟動模擬後 green_suctionpad_frame 座標原點則位於 (0.22859, 0.26047, 0.36576), 請列出運算式說明, 啟動模擬後 joint1, joint2 與 joint3分別以逆時針旋轉 5 度後, 求 green_suctionpad_frame 的絕對座標值.</p>
 <p>答：</p>
 <p>在我啟動模擬後 green_suctionpad_frame 的座標原點與老師題目給的不同，我的所測到的值大約為（0.25970, 0.26017, 0.34752）。</p>
@@ -303,9 +323,12 @@ var winkVideoData_w15_1= {
 <p>答：</p>
 <p>我不知如何套用運算式，所以我直接計算我按鍵案幾次最接近紅色方塊頂端中心。</p>
 <p>第一先按鍵 l 按 10 下，第二在按鍵 g 按 34 下，最後按鍵 j 按 28 下，大概接近紅色方塊頂端中心。</p>
-<p>也就是 joint1 先向左旋轉 10 度，然後 joint3 順時針轉 34 度，最後 joint2 順時針轉 28 度。</p><h1>online</h1>
+<p>也就是 joint1 先向左旋轉 10 度，然後 joint3 順時針轉 34 度，最後 joint2 順時針轉 28 度。</p>
+<p></p>
+<h1>Tic-Tae-Toet成品</h1><h1>online</h1>
 <p>我所負責的軟體與零件:NX12-輸出軸、右側連桿、左側連桿、4mm鋁支撐柱、減速箱上殼、L型連接件</p>
 <p>我的檔案下載連結：<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/EuSGfgA3dJxOuYrowyG0b6MBA_ygLfeA6XYNZG7HMmp17g?e=gnWP4d">OneDrive</a></p>
+<p>我的繪的uArm機械手臂參數化零組件檔案連結(<a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/EuSGfgA3dJxOuYrowyG0b6MBA_ygLfeA6XYNZG7HMmp17g?e=gnWP4d">uArm NX12</a>)</p>
 <p><strong>項目一：零件工程圖</strong></p>
 <p><img caption="false" height="630" src="/images/工程圖2.jpg" width="888"/></p>
 <p><img alt="" height="627" src="/images/工程圖1.jpg" width="888"/></p>
@@ -315,7 +338,7 @@ var winkVideoData_w15_1= {
 <p><img alt="" height="540" src="/images/組合圖2.jpg" width="1008"/></p>
 <p><img alt="" height="539" src="/images/組合圖1.jpg" width="1008"/></p>
 <p><img alt="" height="542" src="/images/局部組合放大圖.jpg" width="1008"/></p>
-<p>項目三：組合圖STL格式轉入copelaSim</p>
+<p><strong>項目三：組合圖STL格式轉入copelaSim</strong></p>
 <script>
 // 在 Javascript 標註內以兩個斜線加入單行註解
 // 每一個影片要有獨特的 data-varname 變數名稱
@@ -331,5 +354,6 @@ var winkVideoData_W8_3 = {
 <!-- 將 mp4 檔案從 downloads 目錄取出 -->
 <div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_W8_3" height="100%" muted="true" width="100%">
 <source src="./../downloads/W8_3.mp4" type="video/mp4"/></video></div>
-<p>項目四：控制前三軸作動</p>
-<p>目前只成功作動一軸(底座轉動)</p>
+<p><strong>項目四：控制前三軸作動</strong></p>
+<p>GUI slider 控制前三軸作動在連結中的uArm5.ttt檔</p>
+<p><a href="https://gmnfuedutw-my.sharepoint.com/:f:/g/personal/40923209_gm_nfu_edu_tw/EuSGfgA3dJxOuYrowyG0b6MBj3rvfj9PdtKcsoXkYgLheQ">連結</a></p>
