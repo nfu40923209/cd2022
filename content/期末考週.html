@@ -143,6 +143,7 @@ img.add_border {
 <p><strong>題目一</strong></p>
 <p>修改後零組件放入個人cd2022倉儲downloas中的w18/uarm的證明連結</p>
 <p><a href="https://github.com/nfu40923209/cd2022/tree/main/downloads/w18/uarm">https://github.com/nfu40923209/cd2022/tree/main/downloads/w18/uarm</a></p>
+<p>--------------------------------------------------------------</p>
 <p><strong>題目二</strong></p>
 <p>wink影片展示零組件繪製過程</p>
 <p>若以下影片無法正常播放，請點選影片後按右鍵的在新分頁中開啟視訊觀看</p>
@@ -218,6 +219,7 @@ var winkVideoData_組合圖 = {
 <p>而在修改 "front joint" 零件時，我是利用老師提供的圖直接做左右外型特徵修改。</p>
 <p>然後我遇到最大的問題和花最多時間的是在組合圖的部分，在組裝時，因為底座部分無法固定在原點位置不動，因此組裝時基準的位置會一直轉動跑掉需要一直重新調整角度，零組件組裝後也無法像其他繪圖軟體一樣可以活動模擬，所以跟我以前所學到的軟體有所差別。</p>
 <p>而我原先有使用wink錄製組裝過程影片，但因為我組裝過程過長，導致沒有錄製成功，最後我只能展示組裝後的樣貌。</p>
+<p>------------------------------------------------------------------</p>
 <p><strong>題目三</strong></p>
 <p>將組合圖轉入CoppeliaSim 4.3.0 rev3，用slider控制前三軸轉動，以wink影片展示</p>
 <p>若以下影片無法正常播放，請點選影片後按右鍵的在新分頁中開啟視訊觀看</p>
@@ -252,12 +254,32 @@ var winkVideoData_uarm2 = {
 <!-- 將 mp4 檔案從 downloads 目錄取出 -->
 <div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_uarm2" height="100%" muted="true" width="100%">
 <source src="./../downloads/uarm2.mp4" type="video/mp4"/></video></div>
+<p>-----------------------------------------------------------------</p>
 <p><strong>題目4</strong></p>
 <p>透過 <a href="https://mde.tw/cd2022_guide/content/Visualization%20Stream.html">https://mde.tw/cd2022_guide/content/Visualization%20Stream.html </a>模式，以畫面分享及錄影功能，由兩位 (含) 以上組員測試題目 3 的 XML UI slider 控制功能。</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="538" src="https://www.youtube.com/embed/PuIAYGWg2yQ" title="W18 hw4" width="956"></iframe></p>
+<p>------------------------------------------------------------------</p>
 <p><strong>題目5</strong></p>
 <p>接續題目 4 的畫面分享與影片錄製模式，由兩位 (含) 以上組員協同在新幾何外型組立的 uArm 機械手臂場景中，加入 suctionPad 零件，以手動操控或程式操控的方式，錄製 block 方塊零件的取放模擬影片。</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="538" src="https://www.youtube.com/embed/q6mkqUnPXSA" title="W18 hw5" width="956"></iframe></p>
+<p>若以下影片無法正常播放，請點選影片後按右鍵的在新分頁中開啟視訊觀看</p>
+<p>吸盤和方塊安裝過程展示</p>
+<script>
+// 在 Javascript 標註內以兩個斜線加入單行註解
+// 每一個影片要有獨特的 data-varname 變數名稱
+var winkVideoData_suctionPad_and_blonk3 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<!-- 將 mp4 檔案從 downloads 目錄取出 -->
+<div class="winkVideoContainerClass" style="border: thin solid black; padding: 10px;"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData_suctionPad_and_blonk3" height="100%" muted="true" width="100%">
+<source src="./../downloads/suctionPad_and_blonk3.mp4" type="video/mp4"/></video></div>
+<p>-----------------------------------------------------------------</p>
 <p><strong>題目6</strong></p>
 <p>接續題目 5 的畫面分享與影片錄製模式，由兩位 (含) 以上組員協同在新幾何外型組立的 uArm 機械手臂場景中，以跨網路 Python remote API 的方式，錄製圖形介面 slider 控制前三軸的轉動影片。</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="538" src="https://www.youtube.com/embed/34ljyONG9C4" title="W18 hw6" width="956"></iframe></p><br />About << <a href='About.html'>Previous</a> <a href='分組.html'>Next</a> >> 分組</div>
